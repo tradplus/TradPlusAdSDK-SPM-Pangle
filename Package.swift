@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/tradplus/TradPlusAdSDK-SPM.git",
-            .exact("15.13.0")
+            .exact("15.14.0")
         ),
         .package(
             url: "https://github.com/bytedance/AdsGlobalPackage.git",
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TPPangleAdapter",
-            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Pangle/releases/download/15.13.0/TPPangleAdapter-15.13.0.xcframework.zip",
-            checksum: "406bee54e7553a936bd478b9ae9680d0a33b3999343c88fb59d33652afeb4fc7"
+            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Pangle/releases/download/15.14.0/TPPangleAdapter-15.14.0.xcframework.zip",
+            checksum: "7c958e57c639fdb82526e2da4ce21b659e1ca1bd53eea7a254429a1884dd13b2"
         ),
     ]
 )
